@@ -1,0 +1,19 @@
+# VS Code settings
+.vscode/
+
+# Compiled output files
+*.exe
+*.out
+*.o
+
+# Debug files
+*.dSYM/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
