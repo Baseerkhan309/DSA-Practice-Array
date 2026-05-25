@@ -2,25 +2,26 @@
 #include <vector>
 using namespace std;
 
-// Find Maximum in Array.
+// Array Traversal.
 int FindMaxArr(vector<int> &arr){
-    int maximum = arr[0];
 
-    for(int i=1; i<arr.size(); i++){
-       if(arr[i] > maximum){
-          maximum = arr[i];
-       }
+
+    int maxArr = arr[0];
+    for (int i = 0; i < arr.size(); i++){
+    
+        if (arr[i] > maxArr){
+        
+            maxArr = arr[i];
+        }
     }
 
-    return maximum;
+    return maxArr;
 }
 
-
 int main(){
-vector<int> arr = {1,3,50,7};
 
-cout << FindMaxArr(arr) << endl;
-
+    vector<int> arr = {2, 4, 1, 5, 8};
+    cout << FindMaxArr(arr) << endl;
 
     return 0;
 }
